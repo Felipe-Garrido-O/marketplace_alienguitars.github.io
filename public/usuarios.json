@@ -1,0 +1,17 @@
+[
+    {
+      "id": "001",
+      "nombre": "felipe garrido",
+      "correo": "fgarrido@correo.com",
+      "comuna":"la florida" ,
+      "psw": "123456"
+      
+    },
+    {  
+      "id": "002",  
+      "nombre": "jhon dalton",
+      "correo": "jdalton@gitmail.com",
+      "comuna":"providencia",
+      "psw": "123444"
+    }
+]  

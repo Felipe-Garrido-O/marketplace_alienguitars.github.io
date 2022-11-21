@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Navbar Publico */
+
+.imgs{
+  width: 5%;
+}
+
+
+/* Tienda - Buscador */
+
+.buscador {
+  margin-right: 3rem;
+  border-radius: 1rem;
+}
+
+.buscador .inp{
+  padding-right: 10rem;
+  border-radius: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.buscador h5{
+  margin-left: 4rem;
+}
+
+/* Tienda - Imagen sgv favoritos */
+
+.galeria svg{
+  align-self: flex-end;
+  
+}
+
+/* Footer */
+
+.foot {
+  position: relative;
+ 
+}
+

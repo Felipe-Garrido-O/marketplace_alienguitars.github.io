@@ -1,0 +1,56 @@
+[ 
+   {
+      "desc": "guitarra electrica XGTR Stratocaster Negra ST111-BK XGTR, con poco uso, casi nueva, un año de uso. Traida desde japon",
+      "id": "P001",
+      "img": "https://cdnx.jumpseller.com/tienda-del-musico/image/26769952/resize/540/600?1662142018",
+      "categoria":"electrica" ,
+      "nombre": "Guitarra XGTR",
+      "precio": 30000,
+      "liked": false
+    },
+    {
+      "desc": "guitarra electrica XGTR Stratocaster Negra ST111-BK XGTR, con poco uso, casi nueva, un año de uso. Traida desde japon",
+      "id": "P002",
+       "img": "https://cdnx.jumpseller.com/tienda-del-musico/image/26769952/resize/540/600?1662142018",
+       "categoria":"electrica" ,
+       "nombre": "Guitarra Ibanez sa26ofm",
+       "precio": 30000,
+       "liked": false
+    },
+    {
+      "desc": "guitarra electrica XGTR Stratocaster Negra ST111-BK XGTR, con poco uso, casi nueva, un año de uso. Traida desde japon",
+      "id": "P003",
+      "img": "https://cdnx.jumpseller.com/tienda-del-musico/image/26769952/resize/540/600?1662142018",
+      "categoria":"electrica" ,
+      "nombre": "Guitarra XGTR",
+      "precio": 30000,
+      "liked": false
+    },
+    {
+        "desc": "guitarra electrica XGTR Stratocaster Negra ST111-BK XGTR, con poco uso, casi nueva, un año de uso. Traida desde japon",
+        "id": "P004",
+        "img": "https://cdnx.jumpseller.com/tienda-del-musico/image/26769952/resize/540/600?1662142018",
+        "categoria":"electrica" ,
+        "nombre": "Guitarra XGTR",
+        "precio": 30000,
+        "liked": false
+    },
+    {
+        "desc": "guitarra electrica XGTR Stratocaster Negra ST111-BK XGTR, con poco uso, casi nueva, un año de uso. Traida desde japon",
+        "id": "P005",
+        "img": "https://cdnx.jumpseller.com/tienda-del-musico/image/26769952/resize/540/600?1662142018",
+        "categoria":"electrica" ,
+        "nombre": "Guitarra XGTR",
+        "precio": 30000,
+        "liked": false
+    },
+    {
+      "desc": "guitarra electrica XGTR Stratocaster Negra ST111-BK XGTR, con poco uso, casi nueva, un año de uso. Traida desde japon",
+      "id": "P006",
+      "img": "https://cdnx.jumpseller.com/tienda-del-musico/image/26769952/resize/540/600?1662142018",
+      "categoria":"electrica" ,
+      "nombre": "Guitarra XGTR",
+      "precio": 30000,
+      "liked": false
+    }
+  ]
