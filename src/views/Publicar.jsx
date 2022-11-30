@@ -1,7 +1,7 @@
 import React from 'react';
 import {Formik, Form, Field} from 'formik';
 import NavbarPrivado from '../components/NavbarPrivado';
-import Footer from './Footer';
+import Footer from '../components/Footer';
 
 export default function Publicar() {
   return (

@@ -1,7 +1,7 @@
 import React from 'react';
 import {useContext} from 'react';
 import NavbarPrivado from '../components/NavbarPrivado';
-import Footer from './Footer'
+import Footer from '../components/Footer';
 import Context from '../Context';
 
 export default function Favoritos() {
@@ -23,7 +23,7 @@ export default function Favoritos() {
       <div className='row'>
     {guitarras.filter((producto) => producto.liked 
           ).map((producto) => (
-            <div className="card col-lg-3 col-md-6 m-3 p-1" style={{width: '15rem'}} key={producto.id}>
+            <div className="card border-info bg-light col-lg-3 col-md-6 m-3 p-1" style={{width: '15rem'}} key={producto.id}>
     <img src={producto.img} className="card-img-top" alt="imagen guitarra" />
     <div className="card-body">
       <h5 className="card-title">{producto.nombre}</h5>

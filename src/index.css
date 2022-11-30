@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 code {
@@ -15,7 +18,7 @@ code {
 /* Navbar Publico */
 
 .imgs{
-  width: 5%;
+  width: 6%;
 }
 
 
@@ -44,9 +47,4 @@ code {
 }
 
 /* Footer */
-
-.foot {
-  position: relative;
- 
-}
 

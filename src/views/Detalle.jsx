@@ -20,7 +20,7 @@ export default function Detalle() {
 
      <div className='container'>
 
-     <div className="card mb-3 m-3 p-1" style={{width: '40rem'}}>
+     <div className="card bg-light border-dark mb-3 m-3 p-1" style={{width: '40rem'}}>
      <div className="row g-0" >
      <div className="col-md-4" key={producto[0].id}>
      <img src={producto[0].img} className="img-fluid rounded-start" alt="imagen guitarra" />

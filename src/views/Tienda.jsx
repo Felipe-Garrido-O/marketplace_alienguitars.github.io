@@ -2,7 +2,7 @@ import React from 'react';
 import { useContext } from 'react';
 import Grids from '../components/Grids';
 import NavbarPrivado from '../components/NavbarPrivado';
-import Footer from './Footer';
+import Footer from '../components/Footer';
 import Context from '../Context';
 
 export default function Tienda() {

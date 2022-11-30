@@ -3,7 +3,7 @@ import Context from '../Context';
 import { useContext } from 'react';
 import PubliGrids from '../components/PubliGrids';
 import NavbarPrivado from '../components/NavbarPrivado';
-import Footer from './Footer';
+import Footer from '../components/Footer';
 
 export default function Mispublicaciones() {
 

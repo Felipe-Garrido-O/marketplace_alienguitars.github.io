@@ -10,9 +10,9 @@ import {
 export default function Footer() {
 
   return (
-   <>
+  <footer>
 
- <MDBFooter className='foot bg-dark text-center text-white'>
+   <MDBFooter className='foot bg-dark text-center text-white'>
       <MDBContainer className='p-4 pb-0'>
         <section className='mb-4'>
           <hr></hr>
@@ -38,6 +38,7 @@ export default function Footer() {
         </a>
       </div>
     </MDBFooter>
-</>
+
+  </footer>
   );
 }

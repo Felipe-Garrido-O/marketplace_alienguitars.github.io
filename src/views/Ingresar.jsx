@@ -1,8 +1,10 @@
 import React, { useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { useRef } from 'react';
 import Navbar from '../components/Navbar';
 import Context from '../Context';
-import Footer from './Footer';
+import Footer from '../components/Footer';
+
 
 export default function Ingresar() {
 
@@ -11,13 +13,16 @@ export default function Ingresar() {
 
   const navigate = useNavigate();
 
-  const prevent = (e) => {
+    const prevent = (e) => {
     (e.preventDefault());
   }
+  
+  const pswRef = useRef(null);
+  const correoRef = useRef(null);
 
-  const iniciar = () => {
-    let correo = document.getElementById("correo").value;
-    let psw = document.getElementById("psw").value;
+    const iniciar = () => {
+    let correo = correoRef.current.value;
+    let psw = pswRef.current.value;
     if ( !correo && !psw ) {
       alert("LLene con sus datos ");
     }else {
@@ -42,15 +47,15 @@ export default function Ingresar() {
      <h5> Ingrese sus datos</h5>
     </div>  
     <div className='container py-4' style={{width :'28rem'}}>
-    <form className={prevent}>
+    <form onSubmit={prevent}>
    <div className="mb-3">
     <label for="correo" className="form-label">Email</label>
-    <input type="email" className="form-control" id="correo" placeholder='correo@correo.com'/>
+    <input type="email" className="form-control" id="correo" ref={correoRef} placeholder='correo@correo.com'/>
     <div id="emailHelp" className="form-text">No olvide ingresar su email correctamente</div>
   </div>
   <div className="mb-3">
     <label for="psw" className="form-label">Contraseña</label>
-    <input type="password" className="form-control"
+    <input type="password" className="form-control" ref={pswRef}
      id="psw"  placeholder='6 digitos'/>
   </div>
   <button type="submit" onClick={iniciar} className="btn btn-dark">Ingresar</button>
